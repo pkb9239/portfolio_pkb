@@ -2,63 +2,73 @@
 
 import classNames from 'classnames';
 import { useState } from 'react';
+import { Link } from 'react-scroll';
 
 const NavBar = () => {
   const [isToggle, setIsToggle] = useState(false);
-  const hello = () => {
-    console.log('hio');
-  };
+  const navbarHeightOffset = -80;
+  const moBileNavbarHeightOffset = -230;
   return (
     <>
       <div className="sticky top-0 w-full flex md:justify-around justify-between items-center md:px-6 md:py-6 z-10 px-3 py-3 bg-white bg-opacity-50 backdrop-blur-md">
         <div className="flex items-center text-2xl">
-          <a
-            href="#"
-            className="hover:text-sky-700 md:text-2xl text-base "
+          <Link
+            to="#"
+            smooth={true}
+            offset={navbarHeightOffset}
+            className="hover:text-sky-700 md:text-2xl text-base cursor-pointer"
           >
             PKB's Portfolio
-          </a>
+          </Link>
         </div>
         <ul className="hidden md:flex flex-nowrap gap-5">
           <li className="basis-1/4 text-xl  text-nowrap">
-            <a
-              href="#"
-              className="hover:text-sky-700"
+            <Link
+              to="about-me"
+              smooth={true}
+              offset={navbarHeightOffset}
+              className="hover:text-sky-700 cursor-pointer"
             >
               About me
-            </a>
+            </Link>
           </li>
           <li className="basis-1/4 text-xl  text-nowrap">
-            <a
-              href="#"
-              className="hover:text-sky-700"
+            <Link
+              to="skills"
+              className="hover:text-sky-700 cursor-pointer"
             >
               Skills
-            </a>
+            </Link>
           </li>
           <li className="basis-1/4 text-xl  text-nowrap">
-            <a
-              href="#"
-              className="hover:text-sky-700"
+            <Link
+              to="archiving"
+              smooth={true}
+              offset={navbarHeightOffset}
+              className="hover:text-sky-700 cursor-pointer"
             >
               Archiving
-            </a>
+            </Link>
           </li>
           <li className="basis-1/4 text-xl  text-nowrap">
-            <a
-              href="#"
-              className="hover:text-sky-700"
+            <Link
+              to="project"
+              smooth={true}
+              offset={navbarHeightOffset}
+              className="hover:text-sky-700 cursor-pointer"
             >
               Project
-            </a>
+            </Link>
           </li>
           <li className="basis-1/4 text-xl  text-nowrap">
-            <a
-              href="#"
-              className="hover:text-sky-700"
+            <Link
+              to="career"
+              smooth={true}
+              offset={navbarHeightOffset}
+              className="hover:text-sky-700 cursor-pointer"
             >
               Career
-            </a>
+            </Link>
           </li>
         </ul>
         <div className="md:hidden flex items-center hover:text-sky-700">
@@ -81,37 +91,54 @@ const NavBar = () => {
         </div>
       </div>
       {isToggle ? (
-        <div className={classNames('md:hidden', { hidden: !isToggle })}>
-          <a
-            href="#"
-            className="block py-2 px-4 text-sm hover:bg-gray-200 hover:text-sky-700"
+        <div
+          className={classNames(
+            'sticky top-12 items-center z-10 px-3 bg-white bg-opacity-50 backdrop-blur-md',
+            {
+              hidden: !isToggle,
+            }
+          )}
+        >
+          <Link
+            to="about-me"
+            smooth={true}
+            offset={moBileNavbarHeightOffset}
+            className="block px-2 py-2 text-sm hover:bg-gray-200 hover:text-sky-700"
           >
             About me
-          </a>
-          <a
-            href="#"
-            className="block py-2 px-4 text-sm hover:bg-gray-200 hover:text-sky-700"
+          </Link>
+          <Link
+            to="skills"
+            smooth={true}
+            offset={moBileNavbarHeightOffset}
+            className="block px-2 py-2 text-sm hover:bg-gray-200 hover:text-sky-700"
           >
             Skills
-          </a>
-          <a
-            href="#"
-            className="block py-2 px-4 text-sm hover:bg-gray-200 hover:text-sky-700"
+          </Link>
+          <Link
+            to="archiving"
+            smooth={true}
+            offset={moBileNavbarHeightOffset}
+            className="block px-2 py-2 text-sm hover:bg-gray-200 hover:text-sky-700"
           >
             Archiving
-          </a>
-          <a
-            href="#"
-            className="block py-2 px-4 text-sm hover:bg-gray-200 hover:text-sky-700"
+          </Link>
+          <Link
+            to="project"
+            smooth={true}
+            offset={moBileNavbarHeightOffset}
+            className="block px-2 py-2 text-sm hover:bg-gray-200 hover:text-sky-700"
           >
             Project
-          </a>
-          <a
-            href="#"
-            className="block py-2 px-4 text-sm hover:bg-gray-200 hover:text-sky-700"
+          </Link>
+          <Link
+            to="career"
+            smooth={true}
+            offset={moBileNavbarHeightOffset}
+            className="block px-2 py-2 text-sm hover:bg-gray-200 hover:text-sky-700"
           >
             Career
-          </a>
+          </Link>
         </div>
       ) : null}
     </>
