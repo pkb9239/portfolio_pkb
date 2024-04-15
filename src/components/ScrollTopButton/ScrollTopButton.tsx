@@ -18,7 +18,7 @@ const ScrollTopButton = () => {
         onClick={() => {
           console.log('ho');
         }}
-        className="flex justify-around items-center w-10 h-10 md:w-14 md:h-14 rounded-lg bg-stone-100 shadow-xl md:hover:bg-slate-600 md:hover:text-white"
+        className="flex justify-around items-center w-10 h-10 md:w-14 md:h-14 rounded-lg md:transition md:duration-300 bg-stone-100 shadow-xl md:hover:bg-slate-600 md:hover:text-white"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
