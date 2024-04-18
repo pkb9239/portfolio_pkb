@@ -49,7 +49,7 @@ const NavBar = () => {
         <div className="w-full flex flex-row md:justify-around justify-between items-center md:px-6 md:py-6 px-3 py-3 bg-white bg-opacity-50 backdrop-blur-md">
           <div className="flex items-center text-2xl">
             <Link
-              to="#"
+              to="about-me"
               smooth={true}
               offset={offset}
               className="hover:text-sky-700 md:text-2xl text-base cursor-pointer"
