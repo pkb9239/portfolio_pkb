@@ -12,7 +12,7 @@ const ScrollTopButton = () => {
   return (
     <div>
       <Link
-        to="#"
+        to="about-me"
         smooth={true}
         offset={offset}
         onClick={() => {
