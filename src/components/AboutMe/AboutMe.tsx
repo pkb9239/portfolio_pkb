@@ -4,6 +4,7 @@ import { SiVelog } from 'react-icons/si';
 import { LiaBirthdayCakeSolid } from 'react-icons/lia';
 import { FaRegStar } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
+
 const AboutMe = () => {
   return (
     <div className="flex flex-col items-center justify-center bg-aside-bg w-full h-full py-3">
