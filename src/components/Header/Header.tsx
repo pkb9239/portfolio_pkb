@@ -11,6 +11,7 @@ const Header = () => {
     ? MOBILENAVBARHEIGHTOFFSET
     : PCNAVBARHEIGHTOFFSET;
 
+  const name = '  박경빈  ';
   return (
     <div
       id="about-me"
@@ -35,14 +36,18 @@ const Header = () => {
               <div className="animate-[wiggle_1s_ease-in-out_infinite] md:text-3xl text-xl font-semibold">
                 👋🏻
               </div>
-              <div className="md:text-3xl text-xl"> 안녕하세요.</div>
+              <div className="md:text-4xl text-xl"> 안녕하세요.</div>
             </div>
-            <p className="md:text-3xl text-xl">🌳 울창한 숲을 목표로</p>
-            <p className="md:text-3xl text-xl">
+            <p className="md:text-4xl text-xl">🌳 울창한 숲을 목표로</p>
+            <p className="md:text-4xl text-xl">
               🪵 한 그루 한 그루 나무를 심는
             </p>
-            <p className="md:text-3xl text-xl">
-              🧑🏻‍💻 프론트엔드 개발자 박경빈입니다.
+            <p className="md:text-4xl text-xl">
+              🧑🏻‍💻 프론트엔드 개발자
+              <span className="text-6xl underline decoration-5 decoration-sky-500">
+                {name}
+              </span>
+              입니다.
             </p>
             <Link
               to="first-content"
