@@ -4,6 +4,10 @@ const config: Config = {
   content: ['./src/**/*.{js,ts,jsx,tsx,mdx}'],
   theme: {
     extend: {
+      colors: {
+        'aside-bg': '#7d786f',
+        'aside-second-bg': '#b8b3ab',
+      },
       screens: {
         sm: '640px',
         // => @media (min-width: 640px) { ... }
@@ -23,7 +27,7 @@ const config: Config = {
 
       keyframes: {
         wiggle: {
-          '0%, 100%': { transform: 'rotate(-3deg)' },
+          '0%, 100%': { transform: 'rotate(-10deg)' },
           '50%': { transform: 'rotate(3deg)' },
         },
       },
