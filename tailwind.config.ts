@@ -1,12 +1,16 @@
 import type { Config } from 'tailwindcss';
+const { mauve, violet } = require('@radix-ui/colors');
 
 const config: Config = {
   content: ['./src/**/*.{js,ts,jsx,tsx,mdx}'],
   theme: {
     extend: {
       colors: {
+        ...mauve,
+        ...violet,
         'aside-bg': '#7d786f',
         'aside-second-bg': '#b8b3ab',
+        'main-color': '#3b81f6',
       },
       screens: {
         sm: '640px',
@@ -26,12 +30,22 @@ const config: Config = {
       },
 
       keyframes: {
+        slideDown: {
+          from: { height: '0px' },
+          to: { height: 'var(--radix-accordion-content-height)' },
+        },
+        slideUp: {
+          from: { height: 'var(--radix-accordion-content-height)' },
+          to: { height: '0px' },
+        },
         wiggle: {
           '0%, 100%': { transform: 'rotate(-10deg)' },
           '50%': { transform: 'rotate(3deg)' },
         },
       },
       animation: {
+        slideDown: 'slideDown 300ms cubic-bezier(0.87, 0, 0.13, 1)',
+        slideUp: 'slideUp 300ms cubic-bezier(0.87, 0, 0.13, 1)',
         wiggle: 'wiggle 1s ease-in-out infinite',
       },
     },
