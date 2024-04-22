@@ -19,7 +19,7 @@ interface AccordionDemoProps {
 const Accordions = ({ content }: AccordionDemoProps) => {
   return (
     <Accordion.Root
-      className="bg-mauve6 md:w-3/5 w-full rounded-md shadow-[0_2px_10px] shadow-black/5"
+      className="bg-mauve6 w-full rounded-md shadow-[0_2px_10px] shadow-black/15"
       type="single"
       collapsible
     >
