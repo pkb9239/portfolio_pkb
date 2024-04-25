@@ -1,6 +1,5 @@
 import Link from 'next/link';
 import Content from '../Content';
-import Title from '../Title';
 import { kiwingAccordionsContent, kiwingContent } from '@/constants/kiwing';
 import Accordions from '../Accordions';
 
