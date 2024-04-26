@@ -50,7 +50,7 @@ const Header = () => {
               입니다.
             </p>
             <Link
-              to="first-content"
+              to="project"
               smooth={true}
               offset={navbarHeightOffset}
               className="block px-2 py-2 text-sm cursor-pointer"
