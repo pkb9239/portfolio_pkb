@@ -6,7 +6,7 @@ import {
   portfolioContent,
 } from '@/constants/portfolio';
 
-const Portfolio = () => {
+const PortfolioProject = () => {
   return (
     <div className="flex flex-col gap-10">
       <Content
@@ -32,4 +32,4 @@ const Portfolio = () => {
   );
 };
 
-export default Portfolio;
+export default PortfolioProject;
