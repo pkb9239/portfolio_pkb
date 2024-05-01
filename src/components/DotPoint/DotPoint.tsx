@@ -1,5 +1,9 @@
 const DotPoint = () => {
-  return <div></div>;
+  return (
+    <>
+      <span className="md:text-8xl text-6xl text-main-color">.</span>
+    </>
+  );
 };
 
 export default DotPoint;
