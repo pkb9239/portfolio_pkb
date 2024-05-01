@@ -9,6 +9,7 @@ const Study = () => {
       <Content
         category="스터디"
         title="모던 자바스크립트 딥다이브 스터디"
+        period="2023년 9월 - 2024년 1월"
         content={[
           <div className="flex">
             <span>
