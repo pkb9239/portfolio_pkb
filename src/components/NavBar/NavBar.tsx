@@ -60,34 +60,6 @@ const NavBar = () => {
           <ul className="hidden md:flex flex-nowrap gap-5">
             <li className="basis-1/4 text-xl  text-nowrap">
               <Link
-                to="about-me"
-                smooth={true}
-                offset={offset}
-                className="hover:text-sky-700 cursor-pointer"
-              >
-                About me
-              </Link>
-            </li>
-            <li className="basis-1/4 text-xl  text-nowrap">
-              <Link
-                to="skills"
-                className="hover:text-sky-700 cursor-pointer"
-              >
-                Skills
-              </Link>
-            </li>
-            <li className="basis-1/4 text-xl  text-nowrap">
-              <Link
-                to="archiving"
-                smooth={true}
-                offset={offset}
-                className="hover:text-sky-700 cursor-pointer"
-              >
-                Archiving
-              </Link>
-            </li>
-            <li className="basis-1/4 text-xl  text-nowrap">
-              <Link
                 to="project"
                 smooth={true}
                 offset={offset}
@@ -98,12 +70,22 @@ const NavBar = () => {
             </li>
             <li className="basis-1/4 text-xl  text-nowrap">
               <Link
-                to="career"
+                to="education"
                 smooth={true}
                 offset={offset}
                 className="hover:text-sky-700 cursor-pointer"
               >
-                Career
+                Education
+              </Link>
+            </li>
+            <li className="basis-1/4 text-xl  text-nowrap">
+              <Link
+                to="study"
+                smooth={true}
+                offset={offset}
+                className="hover:text-sky-700 cursor-pointer"
+              >
+                Study
               </Link>
             </li>
           </ul>
@@ -136,33 +118,6 @@ const NavBar = () => {
             )}
           >
             <Link
-              to="about-me"
-              onClick={() => setIsToggle(false)}
-              smooth={true}
-              offset={offset}
-              className="block px-2 py-2 text-sm hover:bg-gray-200 hover:text-sky-700"
-            >
-              About me
-            </Link>
-            <Link
-              to="skills"
-              onClick={() => setIsToggle(false)}
-              smooth={true}
-              offset={offset}
-              className="block px-2 py-2 text-sm hover:bg-gray-200 hover:text-sky-700"
-            >
-              Skills
-            </Link>
-            <Link
-              to="archiving"
-              onClick={() => setIsToggle(false)}
-              smooth={true}
-              offset={offset}
-              className="block px-2 py-2 text-sm hover:bg-gray-200 hover:text-sky-700"
-            >
-              Archiving
-            </Link>
-            <Link
               to="project"
               onClick={() => setIsToggle(false)}
               smooth={true}
@@ -172,13 +127,22 @@ const NavBar = () => {
               Project
             </Link>
             <Link
-              to="career"
+              to="education"
               onClick={() => setIsToggle(false)}
               smooth={true}
               offset={offset}
               className="block px-2 py-2 text-sm hover:bg-gray-200 hover:text-sky-700"
             >
-              Career
+              Education
+            </Link>
+            <Link
+              to="study"
+              onClick={() => setIsToggle(false)}
+              smooth={true}
+              offset={offset}
+              className="block px-2 py-2 text-sm hover:bg-gray-200 hover:text-sky-700"
+            >
+              Study
             </Link>
           </div>
         ) : null}
