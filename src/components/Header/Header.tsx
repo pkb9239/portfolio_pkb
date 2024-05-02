@@ -44,7 +44,7 @@ const Header = () => {
             </p>
             <p className="md:text-4xl text-xl">
               🧑🏻‍💻 프론트엔드 개발자
-              <span className="text-6xl underline decoration-5 decoration-sky-500">
+              <span className="md:text-6xl text-4xl underline decoration-5 decoration-sky-500">
                 {name}
               </span>
               입니다.
