@@ -44,10 +44,10 @@ const Content = ({
           <ul>
             {content.map((item, index) => (
               <li
-                className="flex gap-2 md:text-xl text-base items-center md:pl-2 pl-1"
+                className="flex gap-2 md:text-xl text-base items-start md:pl-2 pl-1"
                 key={index}
               >
-                <span>
+                <span className="pt-1">
                   <FaCheck
                     color="#3b81f6"
                     size={isMobile ? 14 : 20}
