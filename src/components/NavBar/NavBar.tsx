@@ -60,6 +60,16 @@ const NavBar = () => {
           <ul className="hidden md:flex flex-nowrap gap-5">
             <li className="basis-1/4 text-xl  text-nowrap">
               <Link
+                to="about-me"
+                smooth={true}
+                offset={offset}
+                className="hover:text-sky-700 cursor-pointer"
+              >
+                About Me
+              </Link>
+            </li>
+            <li className="basis-1/4 text-xl  text-nowrap">
+              <Link
                 to="project"
                 smooth={true}
                 offset={offset}
