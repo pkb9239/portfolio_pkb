@@ -60,16 +60,16 @@ export const kiwingContent = [
   '공유된 꾸러미 페이지와 공유된 상세 꾸러미 페이지를 담당하였습니다.',
   'hotjar를 도입하여 실제 사용자의 웹사이트 행동 분석 및 피드백 데이터를 통해 프로젝트를 보완하였습니다.',
   <div className="flex">
-    <Link
-      className="underline transition-colors duration-300 hover:bg-main-color"
-      href="https://www.notion.so/prgrms/query-Key-c4af6ec051c648fa930b048d34051b34"
-      rel="noopener noreferrer"
-      target="_blank"
-      passHref
-    >
-      동적 query key
-    </Link>
     <span>
+      <Link
+        className="underline transition-colors duration-300 hover:bg-main-color"
+        href="https://www.notion.so/prgrms/query-Key-c4af6ec051c648fa930b048d34051b34"
+        rel="noopener noreferrer"
+        target="_blank"
+        passHref
+      >
+        동적 query key
+      </Link>
       로 인한 버그 문제를 해결함으로써 어떻게 query key를 사용해야할지 명확하게
       알게되었습니다.
     </span>
