@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     title: '박경빈 포트폴리오',
     description:
       '울창한 숲을 목표로 한그루 한그루 나무를 심는 프론트엔드 개발자 박경빈입니다.',
-    url: ``,
+    url: 'https://portfolio-pkb-three.vercel.app/',
     siteName: '박경빈 포트폴리오',
     images: [
       {
