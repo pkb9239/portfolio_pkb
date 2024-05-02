@@ -10,7 +10,7 @@ export default function Home() {
     <>
       <NavBar />
       <Header />
-      <div className="fixed md:right-12 md:bottom-12 right-5 bottom-5 flex justify-around items-center w-12 h-12 z-100">
+      <div className="fixed md:right-12 md:bottom-12 right-5 bottom-5 flex justify-around items-center w-12 h-12 z-50">
         <ScrollTopButton />
       </div>
       <div className="flex flex-col items-center md:py-16 py-0 md:gap-16 gap-6 pb-8">
