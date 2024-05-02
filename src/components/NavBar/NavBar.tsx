@@ -118,6 +118,15 @@ const NavBar = () => {
             )}
           >
             <Link
+              to="about-me"
+              onClick={() => setIsToggle(false)}
+              smooth={true}
+              offset={offset}
+              className="block px-2 py-2 text-sm hover:bg-gray-200 hover:text-sky-700"
+            >
+              About Me
+            </Link>
+            <Link
               to="project"
               onClick={() => setIsToggle(false)}
               smooth={true}
