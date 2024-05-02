@@ -31,6 +31,17 @@ const Education = () => {
           'VanillaJS로 프로젝트를 진행했습니다',
           'React, Vue 학습 및 프로젝트를 진행했습니다.',
         ]}
+        links={[
+          <Link
+            href="https://velog.io/@pkb0711/series/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4-%ED%95%9C%EB%8B%AC-%ED%9A%8C%EA%B3%A0"
+            rel="noopener noreferrer"
+            target="_blank"
+            passHref
+            className="underline transition-colors duration-300 hover:bg-main-color"
+          >
+            교육을 받는 동안 배운점, 느낀점, 아쉬웠던 점 기록한 회고 글 작성
+          </Link>,
+        ]}
       />
       <Content
         category="동아리"
