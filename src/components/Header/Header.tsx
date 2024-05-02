@@ -13,7 +13,7 @@ const Header = () => {
 
   const name = '  박경빈  ';
   return (
-    <div
+    <header
       id="about-me"
       className="flex md:flex-row flex-col"
     >
@@ -85,7 +85,7 @@ const Header = () => {
           </div>
         </div>
       </article>
-    </div>
+    </header>
   );
 };
 

@@ -42,7 +42,7 @@ const NavBar = () => {
 
   return (
     <>
-      <div
+      <nav
         ref={menuRef}
         className="sticky top-0 z-50"
       >
@@ -165,7 +165,7 @@ const NavBar = () => {
             </Link>
           </div>
         ) : null}
-      </div>
+      </nav>
     </>
   );
 };

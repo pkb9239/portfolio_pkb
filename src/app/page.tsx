@@ -8,33 +8,33 @@ import Study from '@/components/Study';
 
 export default function Home() {
   return (
-    <>
+    <main>
       <NavBar />
       <Header />
-      <div className="fixed md:right-12 md:bottom-12 right-5 bottom-5 flex justify-around items-center w-12 h-12 z-50">
+      <nav className="fixed md:right-12 md:bottom-12 right-5 bottom-5 flex justify-around items-center w-12 h-12 z-50">
         <ScrollTopButton />
-      </div>
-      <div className="flex flex-col items-center md:py-16 py-0 md:gap-16 gap-6 pb-8">
-        <div
+      </nav>
+      <section className="flex flex-col items-center md:py-16 py-0 md:gap-16 gap-6">
+        <article
           id="project"
           className="flex flex-col md:w-3/5 w-full md:px-0 px-4"
         >
           <Project />
-        </div>
-        <div
+        </article>
+        <article
           id="education"
           className="flex flex-col md:w-3/5 w-full md:px-0 px-4"
         >
           <Education />
-        </div>
-        <div
+        </article>
+        <article
           id="study"
           className="flex flex-col md:w-3/5 w-full md:px-0 px-4"
         >
           <Study />
-        </div>
-        <Footer />
-      </div>
-    </>
+        </article>
+      </section>
+      <Footer />
+    </main>
   );
 }
