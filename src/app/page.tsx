@@ -1,4 +1,5 @@
 import Education from '@/components/Education';
+import Footer from '@/components/Footer';
 import Header from '@/components/Header';
 import NavBar from '@/components/NavBar';
 import Project from '@/components/Project';
@@ -32,6 +33,7 @@ export default function Home() {
         >
           <Study />
         </div>
+        <Footer />
       </div>
     </>
   );
