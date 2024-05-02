@@ -4,7 +4,7 @@ import Title from '../Title';
 
 const Education = () => {
   return (
-    <div className="flex flex-col gap-12">
+    <div className="flex flex-col md:gap-12 gap-8">
       <Title text="Education" />
       <Content
         category="대학교"
