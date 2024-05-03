@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   description:
     '울창한 숲을 목표로 한그루 한그루 나무를 심는 프론트엔드 개발자 박경빈입니다.',
   icons: {
-    icon: '/images/pkb.jpeg',
+    icon: '/images/박경빈.png',
   },
   generator: 'Next.js',
   applicationName: '박경빈 포트폴리오',
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     siteName: '박경빈 포트폴리오',
     images: [
       {
-        url: '/images/pkb.jpeg',
+        url: '/images/박경빈.png',
         width: 800,
         height: 600,
         alt: '메인 사진',
@@ -52,7 +52,7 @@ export const metadata: Metadata = {
     title: '박경빈 포트폴리오',
     description:
       '울창한 숲을 목표로 한그루 한그루 나무를 심는 프론트엔드 개발자 박경빈입니다.',
-    images: ['/images/pkb.jpeg'],
+    images: ['/images/박경빈.png'],
   },
 };
 
