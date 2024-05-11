@@ -52,26 +52,113 @@ export const kiwingAccordionsContent = [
 ];
 
 export const kiwingContent = [
-  '재사용 가능한 공통 컴포넌트 개발을 세밀하게 분류하고 조합함으로써 재사용성을 높였고, 이를 통해 유지보수성, 성능 최적화, 그리고 팀 협업의 효율성을 향상시켰습니다.',
-  'FE/BE 개발을 병렬적으로 진행해 개발 생산성을 향상시키기 위한 MSW 사용하였습니다.',
-  '반응형 웹사이트를 PC와 모바일 웹뷰에 맞춰 구현하고, PWA를 도입했습니다.',
-  '사용자 경험 향상을 위해 react-query의 useInfiniteQuery를 이용하여 무한스크롤을 적용하였습니다.',
-  '검색 엔진 최적화를 위해 시멘틱 태그로 마이그레이션 하였습니다.',
-  '공유된 꾸러미 페이지와 공유된 상세 꾸러미 페이지를 담당하였습니다.',
-  'hotjar를 도입하여 실제 사용자의 웹사이트 행동 분석 및 피드백 데이터를 통해 프로젝트를 보완하였습니다.',
+  <div className="flex">
+    <span>
+      공통 컴포넌트의 세밀한 분류와 조합으로 재사용성을 높였습니다. 컴포넌트는
+      기능과 디자인에 따라 분류되어 조합되었으며,&nbsp;
+      <span className="font-bold">전체 컴포넌트의 58%가</span>
+      <Link
+        className="font-bold underline transition-colors duration-300 hover:bg-main-color"
+        href="https://github.com/Team-kiwing/Team-3seco-kiwing-fe/tree/dev/src/components/common"
+        rel="noopener noreferrer"
+        target="_blank"
+        passHref
+      >
+        &nbsp;공통 컴포넌트
+      </Link>
+      로 활용됐습니다. 이로써 개발 시간은 &nbsp;
+      <span className="font-bold">약 20%이상 단축</span>
+      되었고, 코드 중복이 줄어들어&nbsp;
+      <span className="font-bold">유지보수성이 향상</span>되었습니다.
+      팀원들과&nbsp;
+      <span className="font-bold">공통 컴포넌트를 공유</span>하며&nbsp;
+      <span className="font-bold">코드 리뷰</span>를 통해
+      <span className="font-bold">&nbsp;품질을 유지</span>했습니다.
+    </span>
+  </div>,
   <div className="flex">
     <span>
       <Link
-        className="underline transition-colors duration-300 hover:bg-main-color"
+        className="font-bold underline transition-colors duration-300 hover:bg-main-color"
+        href="https://github.com/Team-kiwing/Team-3seco-kiwing-fe/pull/51"
+        rel="noopener noreferrer"
+        target="_blank"
+        passHref
+      >
+        MSW를 활용하여
+      </Link>
+      <span className="font-bold">&nbsp;FE/BE 개발을 병렬적으로 진행</span>
+      하여, 실제 백엔드 API가 준비되지 않은 상황에서도 개발을 진행할 수
+      있었습니다. 이는 <span className="font-bold">독립적인 개발을 가능</span>케
+      하고, 가상 데이터를 활용하여 UI를 개발하고 테스트할 수 있어, 실제 데이터를
+      기다리지 않고도 개발을 진행할 수 있었습니다.
+    </span>
+  </div>,
+  <div className="flex">
+    <span>
+      <Link
+        className="font-bold underline transition-colors duration-300 hover:bg-main-color"
+        href="https://github.com/Team-kiwing/Team-3seco-kiwing-fe/pull/321"
+        rel="noopener noreferrer"
+        target="_blank"
+        passHref
+      >
+        무한 스크롤을 적용
+      </Link>
+      하기 위해&nbsp;
+      <span className="font-bold">useInfiniteQuery 를 사용</span>
+      했습니다. 이는&nbsp;
+      <span className="font-bold">
+        페이징된 데이터를 자동으로 가져오고 관리
+      </span>
+      하여 사용자가 스크롤을 내릴 때 새로운 데이터를 로드하는 작업을&nbsp;
+      <span>간편</span>하게 해줍니다. 이를 통해 사용자는&nbsp;
+      <span className="font-bold">자연스럽게 콘텐츠를 탐색</span>할 수 있습니다.
+    </span>
+  </div>,
+  <div className="flex">
+    <span>
+      <Link
+        className="font-bold underline transition-colors duration-300 hover:bg-main-color"
         href="https://www.notion.so/prgrms/query-Key-c4af6ec051c648fa930b048d34051b34"
         rel="noopener noreferrer"
         target="_blank"
         passHref
       >
-        동적 query key
+        동적 query key로 인한 버그 문제를 해결
       </Link>
-      로 인한 버그 문제를 해결함으로써 어떻게 query key를 사용해야할지 명확하게
-      알게되었습니다.
+      함으로써 어떻게 <span className="font-bold">query key</span>를
+      사용해야할지&nbsp;
+      <span className="font-bold">명확</span>하게 알게되었습니다.
+    </span>
+  </div>,
+  <div className="flex">
+    <span>
+      <span className="font-bold">PWA를 도입</span>
+      하여 개발 생산성을 <span className="font-bold">향상</span>했습니다. 이는
+      오프라인 상황에서도 접근이 가능하며, 앱 스토어에 의존하지 않고 배포할 수
+      있어
+      <span className="font-bold">사용자 경험을 개선</span>하는데 많은 시간을
+      할애할 수 있었습니다.
+    </span>
+  </div>,
+  <div className="flex">
+    <span>
+      웹 접근성, 검색 엔진 <span className="font-bold">최적화</span>를
+      위해&nbsp;
+      <span className="font-bold">시멘틱 태그</span>로 마이그레이션 하였습니다.
+    </span>
+  </div>,
+  <div className="flex">
+    <span>
+      <span className="font-bold">hotjar 도입</span>을 통해 실제 사용자의
+      웹사이트 행동 분석 및 피드백 데이터를 수집하여 프로젝트를 보완하였습니다.
+    </span>
+  </div>,
+  <div className="flex">
+    <span>
+      <span className="font-bold">공유된 꾸러미 페이지</span>와&nbsp;
+      <span className="font-bold">공유된 상세 꾸러미</span>를 담당하였습니다.
     </span>
   </div>,
 ];
