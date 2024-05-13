@@ -4,6 +4,7 @@ import { SiVelog } from 'react-icons/si';
 import { LiaBirthdayCakeSolid } from 'react-icons/lia';
 import { FaRegStar } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
+import { MdOutlineUpdate } from 'react-icons/md';
 
 const AboutMe = () => {
   return (
@@ -66,6 +67,11 @@ const AboutMe = () => {
             <HiOutlineMail size={24} />
             <span className="text-xl">이메일</span>
             <span className="text-xxl">pkb8839@naver.com</span>
+          </div>
+          <div className="flex gap-1 items-center justify-center py-2 transition ease-in-out delay-150 hover:bg-aside-second-bg hover:-translate-y-1 hover:scale-110 duration-300">
+            <MdOutlineUpdate size={24} />
+            <span className="text-l">Last Update</span>
+            <span className="text-xxl">2024.05.13</span>
           </div>
         </div>
       </div>
