@@ -32,7 +32,9 @@ const Content = ({
         <div className="md:text-4xl text-2xl font-bold">{title}</div>
         {period && (
           <div>
-            <div className="md:text-lg text-base">{period}</div>
+            <div className="md:text-lg text-base text-slate-500 font-medium">
+              {period}
+            </div>
           </div>
         )}
         {introduce && (
@@ -41,7 +43,7 @@ const Content = ({
           </div>
         )}
         <div>
-          <ul>
+          <ul className="flex flex-col gap-1">
             {content.map((item, index) => (
               <li
                 className="flex gap-2 md:text-xl text-base items-start md:pl-2 pl-1"

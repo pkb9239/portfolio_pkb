@@ -10,7 +10,7 @@ const config: Config = {
         ...violet,
         'aside-bg': '#7d786f',
         'aside-second-bg': '#b8b3ab',
-        'main-color': '#3b81f6',
+        'main-color': '#0ba5e9',
       },
       screens: {
         sm: '640px',
