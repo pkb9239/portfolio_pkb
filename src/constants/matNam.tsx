@@ -49,21 +49,74 @@ const SOLVE =
   '유저 프로필 페이지 개발 과정에서 랜더링 시 깜빡거리는 현상을 해결하기위해 토큰을 통한 유저의 정보를 recoil을 이용하여 상태관리하여 이를 ';
 
 export const matNamContent = [
-  '재사용 가능한 공통 컴포넌트 분류하고 조합함으로써 재사용성을 높였고, 이를 통해 유지보수성, 성능 최적화, 그리고 팀 협업의 효율성을 향상시켰습니다.',
-  '로그인이나 회원가입을 하였을 때 토큰을 저장하는 flow를 담당하였습니다',
-  '토큰의 유무와 토큰 값에 따라서 자기 자신의 프로필 또는 유저의 프로필을 구분하는 로직을 구현하였습니다.',
+  <div className="flex">
+    로그인이나 회원가입을 하였을 때&nbsp;
+    <span>
+      <span className="font-bold">토큰을 저장하는 flow를 담당</span>하였습니다.
+    </span>
+  </div>,
   <div className="flex">
     <span>
-      {SOLVE}
       <Link
-        className="underline transition-colors duration-300 hover:bg-main-color"
-        href="https://www.notion.so/prgrms/query-Key-c4af6ec051c648fa930b048d34051b34"
+        className="font-bold underline transition-colors duration-300 hover:bg-main-color"
+        href="https://github.com/prgrms-fe-devcourse/FEDC5_MatNam_Ducki/pull/78"
         rel="noopener noreferrer"
         target="_blank"
         passHref
       >
-        해결하였습니다.
+        액세스 토큰의 존재 여부와 값에 따라 자신의 프로필 또는 다른 사용자의
+        프로필을 구분
       </Link>
+      하는 로직을 구현하였습니다.
+    </span>
+  </div>,
+  <div className="flex">
+    <span>
+      프로필 페이지의 렌더링 과정에서&nbsp;
+      <Link
+        className="font-bold underline transition-colors duration-300 hover:bg-main-color"
+        href="https://github.com/prgrms-fe-devcourse/FEDC5_MatNam_Ducki/pull/150"
+        rel="noopener noreferrer"
+        target="_blank"
+        passHref
+      >
+        깜빡거리는 현상을 해결
+      </Link>
+      하기 위해,
+      <span className="font-bold">
+        &nbsp;recoil 상태 관리 라이브러리를 사용하여 토큰을 통한 사용자 정보를
+        효율적으로 관리
+      </span>
+      하고, 페이지를 렌더링할 때 깜빡거리는 현상을 방지하였습니다.
+    </span>
+  </div>,
+  <div className="flex">
+    <span>
+      <Link
+        className="font-bold underline transition-colors duration-300 hover:bg-main-color"
+        href="https://github.com/prgrms-fe-devcourse/FEDC5_MatNam_Ducki/pull/106"
+        rel="noopener noreferrer"
+        target="_blank"
+        passHref
+      >
+        Spinner 컴포넌트를 구현하여 사용자에게 로딩 상태를 시각적으로 표시
+      </Link>
+      하고, React의 Suspense를 활용하여 API fetch 상태를&nbsp;
+      <span className="font-bold">자동으로 관리하여 사용자 경험을 개선</span>
+      했으며,
+      <span className="font-bold">
+        &nbsp;데이터 로딩 시간 동안 더 나은 피드백
+      </span>
+      을 제공했습니다.
+    </span>
+  </div>,
+  <div className="flex">
+    <span>
+      <span className="font-bold">
+        팀장을 맡아 원할하고 적극적인 커뮤니케이션을 이끌었고 전체적인 일정 및
+        스프린트를 관리
+      </span>
+      하였습니다.
     </span>
   </div>,
 ];
