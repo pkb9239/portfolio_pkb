@@ -71,7 +71,7 @@ const AboutMe = () => {
           <div className="flex gap-1 items-center justify-center py-2 transition ease-in-out delay-150 hover:bg-aside-second-bg hover:-translate-y-1 hover:scale-110 duration-300">
             <MdOutlineUpdate size={24} />
             <span className="text-l">Last Update</span>
-            <span className="text-xxl">2024.05.13</span>
+            <span className="text-xxl">2024.06.18</span>
           </div>
         </div>
       </div>
