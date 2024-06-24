@@ -58,7 +58,7 @@ export const kiwingContent = [
       기능과 디자인에 따라 분류되어 조합되었으며,&nbsp;
       <span className="font-bold">전체 컴포넌트의 58%가</span>
       <Link
-        className="font-bold underline transition-colors duration-300 hover:bg-main-color"
+        className="font-bold underline transition-all duration-300 hover-gradient"
         href="https://github.com/Team-kiwing/Team-3seco-kiwing-fe/tree/dev/src/components/common"
         rel="noopener noreferrer"
         target="_blank"
@@ -79,7 +79,7 @@ export const kiwingContent = [
   <div className="flex">
     <span>
       <Link
-        className="font-bold underline transition-colors duration-300 hover:bg-main-color"
+        className="font-bold underline transition-all duration-300 hover-gradient"
         href="https://github.com/Team-kiwing/Team-3seco-kiwing-fe/pull/51"
         rel="noopener noreferrer"
         target="_blank"
@@ -97,7 +97,7 @@ export const kiwingContent = [
   <div className="flex">
     <span>
       <Link
-        className="font-bold underline transition-colors duration-300 hover:bg-main-color"
+        className="font-bold underline transition-all duration-300 hover-gradient"
         href="https://github.com/Team-kiwing/Team-3seco-kiwing-fe/pull/321"
         rel="noopener noreferrer"
         target="_blank"
@@ -119,7 +119,7 @@ export const kiwingContent = [
   <div className="flex">
     <span>
       <Link
-        className="font-bold underline transition-colors duration-300 hover:bg-main-color"
+        className="font-bold underline transition-all duration-300 hover-gradient"
         href="https://www.notion.so/prgrms/query-Key-c4af6ec051c648fa930b048d34051b34"
         rel="noopener noreferrer"
         target="_blank"

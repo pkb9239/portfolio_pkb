@@ -17,7 +17,7 @@ const PortfolioProject = () => {
         content={portfolioContent}
         links={[
           <Link
-            className="underline transition-colors duration-300 hover:bg-main-color"
+            className="underline transition-all duration-300 hover-gradient"
             href="https://github.com/pkb9239/portfolio_pkb"
             rel="noopener noreferrer"
             target="_blank"

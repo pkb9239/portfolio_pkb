@@ -20,7 +20,7 @@ const Education = () => {
             rel="noopener noreferrer"
             target="_blank"
             passHref
-            className="underline transition-colors duration-300 hover:bg-main-color"
+            className="underline transition-all duration-300 hover-gradient"
           >
             프로그래머스 웹 데브코스 프론트엔드 5기
           </Link>
@@ -37,7 +37,7 @@ const Education = () => {
             rel="noopener noreferrer"
             target="_blank"
             passHref
-            className="underline transition-colors duration-300 hover:bg-main-color"
+            className="underline transition-all duration-300 hover-gradient"
           >
             교육을 받는 동안 배운점, 느낀점, 아쉬웠던 점 기록한 회고 글 작성
           </Link>,
@@ -52,7 +52,7 @@ const Education = () => {
             rel="noopener noreferrer"
             target="_blank"
             passHref
-            className="underline transition-colors duration-300 hover:bg-main-color"
+            className="underline transition-all duration-300 hover-gradient"
           >
             멋쟁이 사자처럼 11기
           </Link>
@@ -65,7 +65,7 @@ const Education = () => {
             rel="noopener noreferrer"
             target="_blank"
             passHref
-            className="underline transition-colors duration-300 hover:bg-main-color"
+            className="underline transition-all duration-300 hover-gradient"
           >
             중앙 해커톤에 참가하여 웹 서비스를 구축하는 경험을 하였습니다.
           </Link>,

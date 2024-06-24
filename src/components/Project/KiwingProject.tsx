@@ -14,7 +14,7 @@ const KiwingProject = () => {
             rel="noopener noreferrer"
             target="_blank"
             passHref
-            className="underline transition-colors duration-300 hover:bg-main-color"
+            className="font-bold underline transition-all duration-300 hover-gradient"
           >
             kiwing
           </Link>
@@ -24,7 +24,7 @@ const KiwingProject = () => {
         content={kiwingContent}
         links={[
           <Link
-            className="underline transition-colors duration-300 hover:bg-main-color"
+            className="underline transition-all duration-300 hover-gradient"
             href="https://github.com/Team-kiwing/Team-3seco-kiwing-fe"
             rel="noopener noreferrer"
             target="_blank"
@@ -33,7 +33,7 @@ const KiwingProject = () => {
             GitHub Repository
           </Link>,
           <Link
-            className="underline transition-colors duration-300 hover:bg-main-color"
+            className="underline transition-all duration-300 hover-gradient"
             href="https://prgrms.notion.site/2794be1a25474d5a8ce0bed8b3191539"
             rel="noopener noreferrer"
             target="_blank"

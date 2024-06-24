@@ -18,7 +18,7 @@ const Study = () => {
                 rel="noopener noreferrer"
                 target="_blank"
                 passHref
-                className="underline transition-colors duration-300 hover:bg-main-color"
+                className="underline transition-all duration-300 hover-gradient"
               >
                 모던 자바스크립트 딥다이브
               </Link>
@@ -29,7 +29,7 @@ const Study = () => {
         ]}
         links={[
           <Link
-            className="underline transition-colors duration-300 hover:bg-main-color"
+            className="underline transition-all duration-300 hover-gradient"
             href="https://velog.io/@pkb0711/series/%EB%AA%A8%EB%8D%98-%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EB%94%A5%EB%8B%A4%EC%9D%B4%EB%B8%8C"
             rel="noopener noreferrer"
             target="_blank"
@@ -38,7 +38,7 @@ const Study = () => {
             매주 공부한 내용을 블로그에 정리하였습니다.
           </Link>,
           <Link
-            className="underline transition-colors duration-300 hover:bg-main-color"
+            className="underline transition-all duration-300 hover-gradient"
             href="https://github.com/prgrms-web-devcourse/FEDC5_DeepDive-Study"
             rel="noopener noreferrer"
             target="_blank"

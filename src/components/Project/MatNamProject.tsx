@@ -14,7 +14,7 @@ const MatNamProject = () => {
             rel="noopener noreferrer"
             target="_blank"
             passHref
-            className="underline transition-colors duration-300 hover:bg-main-color"
+            className="font-bold underline transition-all duration-300 hover-gradient"
           >
             맛남의 길
           </Link>
@@ -24,7 +24,7 @@ const MatNamProject = () => {
         content={matNamContent}
         links={[
           <Link
-            className="underline transition-colors duration-300 hover:bg-main-color"
+            className="underline transition-all duration-300 hover-gradient"
             href="https://github.com/prgrms-fe-devcourse/FEDC5_MatNam_Ducki"
             rel="noopener noreferrer"
             target="_blank"
@@ -33,7 +33,7 @@ const MatNamProject = () => {
             GitHub Repository
           </Link>,
           <Link
-            className="underline transition-colors duration-300 hover:bg-main-color"
+            className="underline transition-all duration-300 hover-gradient"
             href="https://velog.io/@pkb0711/MIL-%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C-%EB%8D%B0%EB%B8%8C%EC%BD%94%EC%8A%A4-5%EA%B8%B0-2023-122024-01"
             rel="noopener noreferrer"
             target="_blank"

@@ -58,7 +58,7 @@ export const matNamContent = [
   <div className="flex">
     <span>
       <Link
-        className="font-bold underline transition-colors duration-300 hover:bg-main-color"
+        className="font-bold underline transition-all duration-300 hover-gradient"
         href="https://github.com/prgrms-fe-devcourse/FEDC5_MatNam_Ducki/pull/78"
         rel="noopener noreferrer"
         target="_blank"
@@ -74,7 +74,7 @@ export const matNamContent = [
     <span>
       프로필 페이지의 렌더링 과정에서&nbsp;
       <Link
-        className="font-bold underline transition-colors duration-300 hover:bg-main-color"
+        className="font-bold underline transition-all duration-300 hover-gradient"
         href="https://github.com/prgrms-fe-devcourse/FEDC5_MatNam_Ducki/pull/150"
         rel="noopener noreferrer"
         target="_blank"
@@ -93,7 +93,7 @@ export const matNamContent = [
   <div className="flex">
     <span>
       <Link
-        className="font-bold underline transition-colors duration-300 hover:bg-main-color"
+        className="font-bold underline transition-all duration-300 hover-gradient"
         href="https://github.com/prgrms-fe-devcourse/FEDC5_MatNam_Ducki/pull/106"
         rel="noopener noreferrer"
         target="_blank"
