@@ -29,20 +29,20 @@ const AboutMe = () => {
       <div className="w-4/5">
         <div className="w-full border-t-2 border-slate-600"></div>
         <div className="w-full flex flex-col md:py-5 md:gap-5 gap-2">
-          <div className="flex gap-1 items-center justify-center py-2 transition ease-in-out delay-150 hover:bg-aside-second-bg hover:-translate-y-1 hover:scale-110 duration-300">
+          <div className="flex gap-1 items-center justify-center py-2 transition-all duration-300 about-hover-gradient">
             <FaRegStar size={24} />
             <span className="text-xl">이름</span>
             <span className="text-xl">박경빈</span>
           </div>
 
-          <div className="flex gap-1 items-center justify-center py-2 transition ease-in-out delay-150 hover:bg-aside-second-bg hover:-translate-y-1 hover:scale-110 duration-300">
+          <div className="flex gap-1 items-center justify-center py-2 transition-all duration-300 about-hover-gradient">
             <LiaBirthdayCakeSolid size={24} />
             <span className="text-xl">생년월일</span>
             <span className="text-xxl">1997.07.11</span>
           </div>
 
           <Link
-            className="flex gap-1 items-center justify-center py-2 transition ease-in-out delay-150 hover:bg-aside-second-bg hover:-translate-y-1 hover:scale-110 duration-300"
+            className="flex gap-1 items-center justify-center py-2 transition-all duration-300 about-hover-gradient"
             href="https://github.com/pkb9239"
             rel="noopener noreferrer"
             target="_blank"
@@ -53,7 +53,7 @@ const AboutMe = () => {
           </Link>
 
           <Link
-            className="flex gap-1 items-center justify-center py-2 transition ease-in-out delay-150 hover:bg-aside-second-bg hover:-translate-y-1 hover:scale-110 duration-300"
+            className="flex gap-1 items-center justify-center py-2 transition-all duration-300 about-hover-gradient"
             href="https://velog.io/@pkb0711/posts"
             rel="noopener noreferrer"
             target="_blank"
@@ -63,12 +63,12 @@ const AboutMe = () => {
             <div className="text-xl">Velog</div>
           </Link>
 
-          <div className="flex gap-1 items-center justify-center py-2 transition ease-in-out delay-150 hover:bg-aside-second-bg hover:-translate-y-1 hover:scale-110 duration-300">
+          <div className="flex gap-1 items-center justify-center py-2 transition-all duration-300 about-hover-gradient">
             <HiOutlineMail size={24} />
             <span className="text-xl">이메일</span>
             <span className="text-xxl">pkb8839@naver.com</span>
           </div>
-          <div className="flex gap-1 items-center justify-center py-2 transition ease-in-out delay-150 hover:bg-aside-second-bg hover:-translate-y-1 hover:scale-110 duration-300">
+          <div className="flex gap-1 items-center justify-center py-2 transition-all duration-300 about-hover-gradient">
             <MdOutlineUpdate size={24} />
             <span className="text-l">Last Update</span>
             <span className="text-xxl">2024.06.18</span>
