@@ -52,7 +52,7 @@ const NavBar = () => {
               to="about-me"
               smooth={true}
               offset={offset}
-              className="hover:text-sky-700 hover:underline underline-offset-4 md:text-2xl text-base cursor-pointer"
+              className="hover:text-sky-700 md:text-2xl text-base cursor-pointer font-medium"
             >
               PKB's Portfolio
             </Link>
@@ -63,7 +63,7 @@ const NavBar = () => {
                 to="about-me"
                 smooth={true}
                 offset={offset}
-                className="hover:text-sky-700 hover:underline underline-offset-4 cursor-pointer"
+                className="hover:text-sky-700 underline underline-offset-8 cursor-pointer"
               >
                 About Me
               </Link>
@@ -73,7 +73,7 @@ const NavBar = () => {
                 to="project"
                 smooth={true}
                 offset={offset}
-                className="hover:text-sky-700 hover:underline underline-offset-4 cursor-pointer"
+                className="hover:text-sky-700 underline underline-offset-8 cursor-pointer"
               >
                 Project
               </Link>
@@ -83,7 +83,7 @@ const NavBar = () => {
                 to="education"
                 smooth={true}
                 offset={offset}
-                className="hover:text-sky-700 hover:underline underline-offset-4 cursor-pointer"
+                className="hover:text-sky-700 underline underline-offset-8 cursor-pointer"
               >
                 Education
               </Link>
@@ -93,7 +93,7 @@ const NavBar = () => {
                 to="study"
                 smooth={true}
                 offset={offset}
-                className="hover:text-sky-700 hover:underline underline-offset-4 cursor-pointer"
+                className="hover:text-sky-700 underline underline-offset-8 cursor-pointer"
               >
                 Study
               </Link>
