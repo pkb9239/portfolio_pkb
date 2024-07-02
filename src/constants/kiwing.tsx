@@ -120,15 +120,15 @@ export const kiwingContent = [
     <span>
       <Link
         className="font-bold underline transition-all duration-300 hover-gradient"
-        href="https://www.notion.so/prgrms/query-Key-c4af6ec051c648fa930b048d34051b34"
+        href="https://velog.io/@pkb0711/React-Query-%EB%8F%99%EC%A0%81-%EC%BF%BC%EB%A6%AC-%ED%82%A4"
         rel="noopener noreferrer"
         target="_blank"
         passHref
       >
-        동적 query key로 인한 버그 문제를 해결
+        동적 querykey로 인한 버그 문제를 해결
       </Link>
-      함으로써 어떻게 <span className="font-bold">query key</span>를
-      사용해야할지&nbsp;
+      함으로써 어떻게 <span className="font-bold">querykey</span>를 관리해야
+      할지&nbsp;
       <span className="font-bold">명확</span>하게 알게되었습니다.
     </span>
   </div>,
@@ -138,7 +138,7 @@ export const kiwingContent = [
       하여 개발 생산성을 <span className="font-bold">향상</span>했습니다. 이는
       오프라인 상황에서도 접근이 가능하며, 앱 스토어에 의존하지 않고 배포할 수
       있어
-      <span className="font-bold">사용자 경험을 개선</span>하는데 많은 시간을
+      <span className="font-bold"> 사용자 경험을 개선</span>하는데 많은 시간을
       할애할 수 있었습니다.
     </span>
   </div>,
@@ -157,8 +157,10 @@ export const kiwingContent = [
   </div>,
   <div className="flex">
     <span>
-      <span className="font-bold">공유된 꾸러미 페이지</span>와&nbsp;
-      <span className="font-bold">공유된 상세 꾸러미</span>를 담당하였습니다.
+      키윙 서비스의
+      <span className="font-bold"> 공유된 꾸러미 페이지</span>와&nbsp;
+      <span className="font-bold">공유된 상세 꾸러미 페이지</span>를
+      담당하였습니다.
     </span>
   </div>,
 ];
