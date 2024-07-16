@@ -5,6 +5,7 @@ import { LiaBirthdayCakeSolid } from 'react-icons/lia';
 import { FaRegStar } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { MdOutlineUpdate } from 'react-icons/md';
+import { VscPreview } from 'react-icons/vsc';
 
 const AboutMe = () => {
   return (
@@ -34,11 +35,11 @@ const AboutMe = () => {
             <span className="text-xl">이름</span>
             <span className="text-xl">박경빈</span>
           </div>
-
           <div className="flex gap-1 items-center justify-center py-2 transition-all duration-300 about-hover-gradient">
-            <LiaBirthdayCakeSolid size={24} />
-            <span className="text-xl">생년월일</span>
-            <span className="text-xxl">1997.07.11</span>
+            <VscPreview size={24} />
+            <span className="text-xl">
+              <Link href="/review">팀원 리뷰 보기</Link>
+            </span>
           </div>
 
           <Link
