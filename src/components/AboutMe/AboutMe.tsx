@@ -64,11 +64,15 @@ const AboutMe = () => {
             <div className="text-xl">Velog</div>
           </Link>
 
-          <div className="flex gap-1 items-center justify-center py-2 transition-all duration-300 about-hover-gradient">
+          <Link
+            className="flex gap-1 items-center justify-center py-2 transition-all duration-300 about-hover-gradient"
+            href="mailto:pkb8839@naver.com"
+            target="_blank"
+          >
             <HiOutlineMail size={24} />
             <span className="text-xl">이메일</span>
             <span className="text-xxl">pkb8839@naver.com</span>
-          </div>
+          </Link>
           <div className="flex gap-1 items-center justify-center py-2 transition-all duration-300 about-hover-gradient">
             <MdOutlineUpdate size={24} />
             <span className="text-l">Last Update</span>
