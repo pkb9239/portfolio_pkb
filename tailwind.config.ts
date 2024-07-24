@@ -11,6 +11,7 @@ const config: Config = {
         'aside-bg': '#7d786f',
         'aside-second-bg': '#b8b3ab',
         'main-color': '#0ba5e9',
+        'chat-button-bg': 'rgb(134, 141, 176)',
       },
       screens: {
         sm: '640px',
