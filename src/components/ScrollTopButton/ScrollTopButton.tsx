@@ -1,4 +1,5 @@
 'use client';
+
 import {
   OPENMOBILENAVBARHEIGHTOFFSET,
   PCNAVBARHEIGHTOFFSET,
@@ -18,11 +19,12 @@ const ScrollTopButton = () => {
         onClick={() => {
           console.log('ho');
         }}
-        className="flex justify-around items-center w-10 h-10 md:w-14 md:h-14 rounded-lg md:transition md:duration-300 bg-stone-100 shadow-xl md:hover:bg-slate-600 md:hover:text-white cursor-pointer"
+        className="flex justify-around items-center w-10 h-10 md:w-14 md:h-14  md:transition md:duration-300 rounded-3xl bg-chat-button-bg hover:shadow-x cursor-pointer"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
+          color="#ffffff"
           viewBox="0 0 24 24"
           strokeWidth="2"
           stroke="currentColor"
