@@ -76,7 +76,7 @@ const AboutMe = () => {
           <div className="flex gap-1 items-center justify-center py-2 transition-all duration-300 about-hover-gradient">
             <MdOutlineUpdate size={24} />
             <span className="text-l">Last Update</span>
-            <span className="text-xxl">2024.07.24</span>
+            <span className="text-xxl">2024.08.02</span>
           </div>
         </div>
       </div>
