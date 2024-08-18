@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import '@/styles/global.css';
@@ -13,6 +14,7 @@ export const metadata: Metadata = {
   icons: {
     icon: '/images/pkbpl.png',
   },
+
   metadataBase: new URL('https://portfolio-pkb-three.vercel.app/'),
   generator: 'Next.js',
   applicationName: '박경빈 포트폴리오',
@@ -64,6 +66,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ko">
+      <Head>
+        <meta
+          name="google-site-verification"
+          content="iUAPQzkNb73HFU2jwwBY3nwxD7RvR8_oVCIMEezrsZ4"
+        />
+      </Head>
       <body className={inter.className}>
         <Theme
           accentColor="blue"
