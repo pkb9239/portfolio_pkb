@@ -8,12 +8,12 @@ import PortfolioProject from './PortfolioProject';
 const Project = () => {
   return (
     <>
-      <div className="flex flex-col md:gap-12 gap-8">
+      <article className="flex flex-col md:gap-12 gap-8">
         <Title text="Project" />
         <PortfolioProject />
         <KiwingProject />
         <MatNamProject />
-      </div>
+      </article>
     </>
   );
 };

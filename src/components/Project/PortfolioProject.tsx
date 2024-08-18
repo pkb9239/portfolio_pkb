@@ -8,7 +8,7 @@ import {
 
 const PortfolioProject = () => {
   return (
-    <div className="flex flex-col gap-10">
+    <article className="flex flex-col gap-10">
       <Content
         category="개인 프로젝트"
         title="나만의 포트폴리오"
@@ -28,7 +28,7 @@ const PortfolioProject = () => {
         ]}
         skill={<Accordions content={portfolioAccordionsContent} />}
       />
-    </div>
+    </article>
   );
 };
 

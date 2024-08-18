@@ -5,7 +5,7 @@ import { matNamAccordionsContent, matNamContent } from '@/constants/matNam';
 
 const MatNamProject = () => {
   return (
-    <div className="flex flex-col gap-10">
+    <article className="flex flex-col gap-10">
       <Content
         category="팀 프로젝트"
         title={
@@ -44,7 +44,7 @@ const MatNamProject = () => {
         ]}
         skill={<Accordions content={matNamAccordionsContent} />}
       />
-    </div>
+    </article>
   );
 };
 

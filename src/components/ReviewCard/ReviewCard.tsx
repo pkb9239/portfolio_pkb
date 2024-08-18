@@ -4,7 +4,7 @@ import { ImQuotesRight } from 'react-icons/im';
 
 const ReviewCard = ({ name, content, belong, position }: ReviewCardProps) => {
   return (
-    <div className="flex flex-col gap-2 p-5 rounded-md h-full bg-white/80 hover:bg-white/100 transition-all">
+    <section className="flex flex-col gap-2 p-5 rounded-md h-full bg-white/80 hover:bg-white/100 transition-all">
       <div className="flex justify-start">
         <ImQuotesLeft />
       </div>
@@ -21,7 +21,7 @@ const ReviewCard = ({ name, content, belong, position }: ReviewCardProps) => {
       <div className="flex justify-end">
         <ImQuotesRight />
       </div>
-    </div>
+    </section>
   );
 };
 

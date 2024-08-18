@@ -1,7 +1,6 @@
 import { AiFillGithub } from 'react-icons/ai';
 import Link from 'next/link';
 import { SiVelog } from 'react-icons/si';
-import { LiaBirthdayCakeSolid } from 'react-icons/lia';
 import { FaRegStar } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { MdOutlineUpdate } from 'react-icons/md';

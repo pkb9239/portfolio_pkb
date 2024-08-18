@@ -27,7 +27,7 @@ const Content = ({
   const { isMobile } = useResize();
   return (
     <>
-      <div className="flex flex-col md:gap-4 gap-3">
+      <article className="flex flex-col md:gap-4 gap-3">
         <div className="md:text-2xl text-xl font-medium">{category}</div>
         <div className="md:text-4xl text-2xl font-bold">{title}</div>
         {period && (
@@ -98,7 +98,7 @@ const Content = ({
             <div>{skill}</div>
           </div>
         )}
-      </div>
+      </article>
     </>
   );
 };
