@@ -7,7 +7,7 @@ export const portfolioAccordionsContent = [
   },
   {
     id: '2',
-    text: 'NextJs',
+    text: 'NextJS',
     answer:
       'SEO을 신경써서 검색엔진에 노출시키고 싶었습니다. SSR을 통해서 SEO를 향상시키고, 별도의 routing 라이브러리없이 페이지 routing을 구현할 수 있는 것도 선택의 기준이 되었습니다.',
   },
@@ -27,5 +27,6 @@ export const portfolioAccordionsContent = [
 
 export const portfolioContent = [
   '나만의 포트폴리오를 가지기 위해서 개발하였습니다.',
-  '사용해보지 못한 tailwind와 nextJs를 활용하여 개발하였습니다.',
+  '반응형 디자인을 적용하였습니다.',
+  'SEO 최적화를 위해 시멘틱 태그를 전략적으로 배치하였습니다.',
 ];
